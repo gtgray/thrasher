@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<color name="clr_transparent">#00000000</color>
+	
+	<color name="clr_btn_start_normal_back">#FFFF4444</color>
+	<color name="clr_btn_start_pressed_back">#B3FF4444</color>
+	<color name="clr_btn_stop_normal_back">#FF33B5E5</color>
+	<color name="clr_btn_stop_pressed_back">#B333B5E5</color>	
+	
+	<color name="clr_white_full">#FFFFFFFF</color>
+	<color name="clr_black_full">#FF000000</color>
+	
+	<color name="clr_back_full">#FF757575</color>
+	
+</resources>

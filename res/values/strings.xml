@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Thrasher</string>
+    <string name="phone_number">Phone number</string>
+    <string name="flush_timeout">Flush timeout, sec</string>
+    <string name="calls_interval">Calls interval, sec</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@color/clr_back_full" >
+	
+	<TextView 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="48dp"
+		android:layout_gravity="center_horizontal"
+		android:text="@string/app_name"
+		android:textSize="20sp"
+		android:textColor="@color/clr_white_full"
+		android:gravity="center" >
+	</TextView>
+
+	<EditText 
+	    android:id="@+id/etPhone"
+		android:layout_width="309dp"
+		android:layout_height="42dp"
+		android:layout_marginTop="38dp"
+		android:layout_gravity="center_horizontal"
+		android:inputType="phone"
+		android:textSize="18sp"
+		android:textColor="@color/clr_white_full"
+		android:textColorHint="@color/clr_white_full"
+		android:hint="@string/phone_number"
+		android:paddingBottom="7dp"
+		android:paddingLeft="9dp"
+		android:paddingRight="9dp" >
+	</EditText>
+	
+	<EditText 
+	    android:id="@+id/etTimeout"
+		android:layout_width="309dp"
+		android:layout_height="42dp"
+		android:layout_marginTop="11dp"
+		android:layout_gravity="center_horizontal"
+		android:inputType="number"
+		android:textSize="18sp"
+		android:textColor="@color/clr_white_full"
+		android:textColorHint="@color/clr_white_full"
+		android:hint="@string/flush_timeout"
+		android:paddingBottom="7dp"
+		android:paddingLeft="9dp"
+		android:paddingRight="9dp" >
+	</EditText>
+	
+	<EditText 
+	    android:id="@+id/etInterval"
+		android:layout_width="309dp"
+		android:layout_height="42dp"
+		android:layout_marginTop="11dp"
+		android:layout_gravity="center_horizontal"
+		android:inputType="number"
+		android:textSize="18sp"
+		android:textColor="@color/clr_white_full"
+		android:textColorHint="@color/clr_white_full"
+		android:hint="@string/calls_interval"
+		android:paddingBottom="7dp"
+		android:paddingLeft="9dp"
+		android:paddingRight="9dp" >
+	</EditText>
+	
+	<RelativeLayout
+	    android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="22dp"
+		android:layout_marginBottom="69dp" >
+	    
+		<TextView 
+		    android:id="@+id/btnStart"
+			android:layout_width="309dp"
+			android:layout_height="59dp"
+			android:layout_centerHorizontal="true"
+			android:text="@string/start"
+			android:textSize="20sp"
+			android:textColor="@color/clr_white_full"
+			android:gravity="center"
+			android:background="@drawable/slc_btn_start_state" >
+		</TextView>
+		
+		<TextView 
+		    android:id="@+id/btnStop"
+			android:layout_width="309dp"
+			android:layout_height="59dp"
+			android:layout_centerHorizontal="true"
+			android:text="@string/stop"
+			android:textSize="20sp"
+			android:textColor="@color/clr_white_full"
+			android:gravity="center"
+			android:background="@drawable/slc_btn_stop_state"
+			android:visibility="gone" >
+		</TextView>
+		
+	</RelativeLayout>
+	
+
+</LinearLayout>
