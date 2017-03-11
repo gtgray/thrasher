@@ -537,7 +537,7 @@ public class ThrasherWithCustomGsmPhone implements Runnable {
 			
 			Method dial = gpClazz.getMethod("dial", String.class);
 			dial.setAccessible(true);
-			Object connection = dial.invoke(gsmPhone, "89037373864");
+			Object connection = dial.invoke(gsmPhone, "89xx1234567");
 			Log.d("myLogs", this.getClass().getSimpleName() + ": >>>>>>>> " + connection);
 			
 			Method getForegroundCall = gpClazz.getMethod("getForegroundCall");
